@@ -183,14 +183,13 @@ No answer received for a **DNSSEC** query, consistent with the "unsigned" status
 2. **Ping scan** — ran `nmap -sn 192.168.108.0/24` (Zenmap's "Ping scan" profile)
 3. **Hosts discovered:** 2 hosts up, scanned in 8.19 seconds
 
-   | # | IP Address | MAC Address | Notes |
-   |---|---|---|---|
-   | 1 | 192.168.108.1 | — | Host is up (latency 0.00089s) |
-   | 2 | 192.168.108.254 | 00:50:56:85:d3:9c | Vendor: VMware |
+   | # | IP Address | Notes |
+   |---|---|---|
+   | 1 | 192.168.108.1 | Host is up (latency 0.00089s) |
+   | 2 | 192.168.108.254 | Vendor: VMware |
 
-4. **Topology** — generated the network topology view in Zenmap, enabled the legend, exported to PDF (see [Evidence](#-evidence))
+4. **Topology** — generated the network topology view in Zenmap, enabled the legend, exported to PDF (see Evidence)
 
-> Only two hosts responded on this subnet, and the second is a VMware virtual adapter/host rather than a physical device — consistent with running Zenmap from inside a VM-based lab environment.
 
 ---
 
