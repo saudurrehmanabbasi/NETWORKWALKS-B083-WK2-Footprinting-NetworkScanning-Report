@@ -30,7 +30,7 @@
 
 ## ⚠️ Disclaimer
 
-> All activity documented here was carried out only against systems and networks I own or was explicitly authorized to test, as part of a supervised training program. This report is for educational purposes only. Unauthorized scanning or footprinting of systems you do not own or have written permission to test is illegal in most jurisdictions. Nothing here should be treated as an invitation to test third-party infrastructure.
+> All activity documented here was carried out only against systems and networks I own or was explicitly authorized to test, as part of a supervised training program. This report is for educational purposes only.
 
 ---
 
@@ -38,12 +38,12 @@
 
 | | |
 |---|---|
-| **Trainee** | `<your name>` |
-| **Program / Batch** | `<program name / batch id>` |
+| **Trainee** | Saud Ur Rehman Abbasi |
+| **Program / Batch** | NetworkWalks-B083 |
 | **Date** | 17 September 2026 |
 | **Target(s)** | networkwalks.com (written permission obtained) · own local LAN |
 | **Modules** | Footprinting (multi-tool) · Zenmap network scan |
-| **Phase coverage** | Phase 1 – Reconnaissance ✅ &nbsp;·&nbsp; Phase 2 – Scanning ✅ &nbsp;·&nbsp; Phases 3–5 – Not yet attempted |
+
 
 This report walks through two linked exercises: gathering public information about a target domain, and then discovering live devices on a local network. Together they illustrate the two earliest stages of a real-world attack path — open-source intelligence gathering, followed by internal reconnaissance.
 
