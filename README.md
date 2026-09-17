@@ -224,21 +224,16 @@ No answer received for a **DNSSEC** query, consistent with the "unsigned" status
 
 ## 🖼️ Evidence
 
-<details>
-<summary>Click to expand screenshots</summary>
-
-- `![WHOIS output](./screenshots/whois.png)`
-- `![WhatWeb output](./screenshots/whatweb.png)`
+- ![WHOIS output](./screenshots/whois.png)
+- ![WhatWeb output](./screenshots/whatweb.png)
 - `![Nslookup output](./screenshots/nslookup.png)`
 - `![Curl headers](./screenshots/curl.png)`
 - `![Wafw00f output](./screenshots/wafw00f.png)`
 - `![DNSRecon output](./screenshots/dnsrecon.png)`
 - `![Zenmap host discovery](./screenshots/zenmap-hosts.png)`
-- `![Network topology](./screenshots/topology.pdf)` — *not yet captured, add once exported*
+- `![Network topology](./screenshots/topology.png)` — *not yet captured, add once exported*
 
 *(Drop the corresponding screenshots into a `/screenshots` folder in this repo — the six command-output images are ready to go; the topology export is still outstanding.)*
-
-</details>
 
 ---
 
