@@ -75,7 +75,6 @@ Every step below lists the **command run**, the **result observed**, and **why i
 
 ## 🌐 Part 1 — Domain Footprinting
 
-<details open>
 <summary><strong>1. WHOIS lookup</strong></summary>
 
 **Command:** `whois networkwalks.com`
@@ -93,9 +92,7 @@ Every step below lists the **command run**, the **result observed**, and **why i
 
 **Why it matters:** The registrar and name-server records show the domain is registered through GoDaddy but hosted/resolved via HostGator name servers — a mismatch worth noting when profiling infrastructure. DNSSEC being unsigned also means DNS responses for this domain aren't cryptographically verifiable.
 
-</details>
 
-<details>
 <summary><strong>2. WhatWeb fingerprinting</strong></summary>
 
 **Command:** `whatweb networkwalks.com`
@@ -110,9 +107,6 @@ Every step below lists the **command run**, the **result observed**, and **why i
 
 **Why it matters:** The exposed CMS and plugin *versions* are the most actionable finding here — they let an attacker check directly against known WordPress/plugin CVEs rather than guessing at the stack.
 
-</details>
-
-<details>
 <summary><strong>3. DNS resolution</strong></summary>
 
 **Command:** `nslookup networkwalks.com`
@@ -121,9 +115,6 @@ Every step below lists the **command run**, the **result observed**, and **why i
 
 **Why it matters:** Confirms the hosting IP, useful for pivoting into IP-based reconnaissance (reverse DNS, shared-hosting checks, ASN lookups, etc.).
 
-</details>
-
-<details>
 <summary><strong>4. HTTP header inspection</strong></summary>
 
 **Command:** `curl -I https://networkwalks.com`
@@ -138,9 +129,6 @@ Every step below lists the **command run**, the **result observed**, and **why i
 
 **Why it matters:** The `/wp-json/` REST endpoint and cache header confirm WordPress hosting details beyond what WhatWeb alone showed, and give another route for enumeration (e.g. querying `/wp-json/wp/v2/users`).
 
-</details>
-
-<details>
 <summary><strong>5. WAF detection</strong></summary>
 
 **Command:** `wafw00f networkwalks.com`
@@ -149,9 +137,7 @@ Every step below lists the **command run**, the **result observed**, and **why i
 
 **Why it matters:** Confirms a WAF is actively protecting the site, which shapes how an attacker would need to approach evasion versus a completely unprotected target.
 
-</details>
 
-<details>
 <summary><strong>6. DNS record enumeration</strong></summary>
 
 **Command:** `dnsrecon -d networkwalks.com`
@@ -170,8 +156,6 @@ Every step below lists the **command run**, the **result observed**, and **why i
 No answer received for a **DNSSEC** query, consistent with the "unsigned" status seen in WHOIS.
 
 **Why it matters:** The SPF record and autodiscover SRV records confirm cPanel-based email hosting alongside the web hosting, rounding out the infrastructure picture built from the previous steps.
-
-</details>
 
 ---
 
