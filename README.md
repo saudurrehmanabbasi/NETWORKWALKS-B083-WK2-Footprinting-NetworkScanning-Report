@@ -224,16 +224,15 @@ No answer received for a **DNSSEC** query, consistent with the "unsigned" status
 
 ## 🖼️ Evidence
 
-- ![WHOIS output](./screenshots/whois.png)
-- ![WhatWeb output](./screenshots/whatweb.png)
-- `![Nslookup output](./screenshots/nslookup.png)`
-- `![Curl headers](./screenshots/curl.png)`
-- `![Wafw00f output](./screenshots/wafw00f.png)`
-- `![DNSRecon output](./screenshots/dnsrecon.png)`
-- `![Zenmap host discovery](./screenshots/zenmap-hosts.png)`
-- `![Network topology](./screenshots/topology.png)` — *not yet captured, add once exported*
+ ![WHOIS output](./screenshots/whois.png)
+ ![WhatWeb output](./screenshots/whatweb.png)
+ ![Nslookup output](./screenshots/nslookup.png)
+ ![Curl headers](./screenshots/curl.png)
+ ![Wafw00f output](./screenshots/wafw00f.png)
+ ![DNSRecon output](./screenshots/dnsrecon.png)
+ ![Zenmap host discovery](./screenshots/zenmap-hosts.png)
+ ![Network topology](./screenshots/topology.png) 
 
-*(Drop the corresponding screenshots into a `/screenshots` folder in this repo — the six command-output images are ready to go; the topology export is still outstanding.)*
 
 ---
 
@@ -245,10 +244,3 @@ No answer received for a **DNSSEC** query, consistent with the "unsigned" status
 
 ---
 
-## 👤 About
-
-**`<Your Name>`** — Cybersecurity Trainee
-`<Program name>` · Week 2
-[LinkedIn](<your-linkedin-url>)
-
-</div>
