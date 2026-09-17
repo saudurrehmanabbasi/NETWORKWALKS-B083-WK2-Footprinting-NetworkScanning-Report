@@ -24,7 +24,6 @@
 - [Recommendations](#-recommendations)
 - [Evidence](#-evidence)
 - [Lessons Learned](#-lessons-learned)
-- [About](#-about)
 
 ---
 
